@@ -1,0 +1,58 @@
+.jumbotron{
+    background-image: url("../resources/banner.png");
+    height:400px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: center;
+}
+#information{
+    padding-bottom: 20px;
+}
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+  }
+  
+  button:hover, a:hover {
+    text-decoration: none;
+    opacity: 0.9;
+    color: white;
+  }
+
+  footer{
+      height: max-content;
+  }
+  footer p{
+    position: relative;
+    left: 25%;
+    top: 20%;
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-wrap: break-word;
+  }
