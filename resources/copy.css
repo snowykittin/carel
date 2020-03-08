@@ -4,12 +4,19 @@ body{
     padding: 0px;
     overflow-x:hidden;
 }
+h1{
+  font-size: 3vw;
+}
 .jumbotron{
     background-image: url("../resources/banner.png");
     height:400px;
     padding: 20px;
     text-align: center;
     vertical-align: center;
+}
+#image-break{
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 #information{
     padding-bottom: 20px;
@@ -20,12 +27,14 @@ body{
     margin: auto;
     text-align: center;
   }
-  
   .title {
     color: grey;
-    font-size: 18px;
+    font-size: 1.5vw;
   }
-  
+  .special{
+    max-width: 500px;
+    margin: 40px;
+  }
   button {
     border: none;
     outline: 0;
@@ -35,12 +44,12 @@ body{
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    font-size: 1.5vw;
   }
   
   a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.75vw;
     color: white;
   }
   
@@ -52,12 +61,13 @@ body{
 
   footer{
       height: max-content;
+      margin-top: 80px;
   }
   footer p{
     padding-left:25%;
     padding-right:25%;
     color: gray;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     word-wrap: break-word;
   }
