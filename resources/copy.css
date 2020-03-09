@@ -13,6 +13,14 @@ body{
   text-align: center;
   vertical-align: center;
 }
+.display-1{
+  padding-top: 125px;
+  color: white;
+}
+.pgPadding{
+  margin-left: 50px;
+  margin-right: 50px;
+}
 #topNav{
   padding: 20px;
   width: 98%;
