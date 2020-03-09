@@ -3,12 +3,25 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x:hidden;
+    background-color: #F3B700;
+    background-image: linear-gradient(#faa300, #F3B700);
 }
 #topNav{
   padding: 20px;
+  width: 98%;
+  margin-left: 1%;
+}
+.navbar-default{
+  background-color: #C17D00;
+}
+#main{
+  margin-left: 1%;
+  width: 98%;
+  background-color: #eeeeee;
 }
 h1{
   font-size: 3vw;
+  color: #124E78;
 }
 #image-break{
   padding-top: 40px;
@@ -37,7 +50,7 @@ h1{
     outline: 0;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #124E78;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -63,7 +76,6 @@ h1{
   footer p{
     padding-left:25%;
     padding-right:25%;
-    color: gray;
     padding-top: 20px;
     padding-bottom: 10px;
     word-wrap: break-word;
