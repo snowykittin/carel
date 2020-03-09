@@ -4,21 +4,18 @@ body{
     padding: 0px;
     overflow-x:hidden;
 }
+#topNav{
+  padding: 20px;
+}
 h1{
   font-size: 3vw;
 }
-.jumbotron{
-    background-image: url("../resources/banner.png");
-    height:400px;
-    padding: 20px;
-    text-align: center;
-    vertical-align: center;
-}
 #image-break{
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 #information{
+    padding-top: 20px;
     padding-bottom: 20px;
 }
   .card {
