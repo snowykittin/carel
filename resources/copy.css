@@ -6,6 +6,11 @@ body{
     background-color: #F3B700;
     background-image: linear-gradient(#faa300, #F3B700);
 }
+#main{
+  margin-left: 2%;
+  width: 96%;
+  background-color: #eeeeee;
+}
 .jumbotron{
   background-image: url(banner.png);
   height:400px;
@@ -29,11 +34,7 @@ body{
 .navbar-default{
   background-color: #124E78;
 }
-#main{
-  margin-left: 1%;
-  width: 98%;
-  background-color: #eeeeee;
-}
+
 h1{
   font-size: 3vw;
   color: #124E78;
@@ -78,13 +79,13 @@ h1{
   a {
     text-decoration: none;
     font-size: 1.75vw;
-    color: white;
+    color: grey;
   }
   
   button:hover, a:hover {
     text-decoration: none;
     opacity: 0.9;
-    color: white;
+    color: black;
   }
 
   footer{
@@ -109,3 +110,21 @@ h1{
   }
 
 
+li{
+  padding-right: 5px;
+  padding-left: 25px;
+}
+
+.data{
+  border: 2px solid grey;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: max-content;
+}
+
+.btn-primary{
+  background-color: #124E78;
+  border-color: #124E78;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
